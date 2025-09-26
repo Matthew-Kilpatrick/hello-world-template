@@ -1,0 +1,14 @@
+name: Greet People
+on: workflow_dispatch
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      - name: Say Hello
+        uses: matthew-kilpatrick/hello-world-action@main # a tag can be used instead of main to use a fixed version
+        with:
+          names-file: 'names.yml'

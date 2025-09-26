@@ -1,0 +1,1 @@
+A repository template for using the [hello-world-action](https://github.com/matthew-kilpatrick/hello-world-action). Simply create a private repo from this template, modify `names.yml`, and manually run the action from the GitHub UI.
